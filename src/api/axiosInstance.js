@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://lms-backend-production-dc37.up.railway.app",
 });
 
 axiosInstance.interceptors.request.use(
